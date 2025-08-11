@@ -8,13 +8,13 @@ Console.WriteLine("MCP Server with Azure OpenAI Example");
 Console.WriteLine("==========================================");
 
 // Configuration
-string? endpoint = "https://aifoundrydemo2025-resource.cognitiveservices.azure.com/";
+string? endpoint = "";
 if (string.IsNullOrEmpty(endpoint))
 {
     Console.WriteLine(" Azure OpenAI endpoint is required");
     return;
 }
-string? apiKey = "5jgc6R1QYlMXOmZKBcDwl2Q3lQGxobxuHtXvuCvhjFIoOFxoS3msJQQJ99BEACHYHv6XJ3w3AAAAACOGnBNu";
+string? apiKey = "";
 if (string.IsNullOrEmpty(apiKey))
 {
     Console.WriteLine(" Azure OpenAI API key is required");
