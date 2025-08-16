@@ -21,7 +21,7 @@ namespace MCP_POC
             {
                 Console.WriteLine(" Azure OpenAI endpoint is required");
             }
-            string? apiKey = "";
+            string? apiKey = "5jgc6R1QYlMXOmZKBcDwl2Q3lQGxobxuHtXvuCvhjFIoOFxoS3msJQQJ99BEACHYHv6XJ3w3AAAAACOGnBNu";
             if (string.IsNullOrEmpty(apiKey))
             {
                 Console.WriteLine(" Azure OpenAI API key is required");
